@@ -43,7 +43,7 @@ void loop() {
         
                 if (rightButtonFlag == true || leftButtonFlag == true) {
         
-                    } else if (randLight >= 5 && leftButtonFlag == true) {
+                    if (randLight >= 5 && leftButtonFlag == true) {
         
                         failstate();
                         break;
